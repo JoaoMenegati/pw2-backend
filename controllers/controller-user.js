@@ -14,7 +14,7 @@ module.exports = {
             var result = {
                 status: 200,
                 json: {
-                    message: 'Usuário cadastro com sucesso!'
+                    message: 'Usuário cadastrado com sucesso!'
                 }
             }
 
