@@ -9,8 +9,6 @@ function sendResult( res, result ) {
 
 module.exports = {
     initDatabase() {
-        const a = Question.countDocuments()
-
         Question.estimatedDocumentCount( function( err, count ) {
             if( count == 0 ) {
                 const questions = JSON.parse( Utils.readFromFile( '/questions/questions.json' ) ).questions
@@ -27,5 +25,38 @@ module.exports = {
                 } )
             }
         } ) 
+    },
+
+    findQuestions( req, res ) {
+         Question.find( function( err, docs ) {
+            var result = {
+                status: 200,
+                json: undefined
+            }
+
+            if( err ) {
+                console.log( err )
+                result.status = 500
+                result.json = { message: 'Falha ao buscar '}
+            } else {
+                const randomQuestions = []
+                var size = docs.length
+                for( var i = 0; i < 5; i++ ) {
+
+                    var index = Math.floor( Math.random() * size )
+                    const question = docs[ index ]
+
+                    randomQuestions.push( question )
+                    docs.splice( index, 1 )
+
+                    size--;
+                }
+                result.json = {
+                    results: randomQuestions
+                }
+            }
+
+            sendResult( res, result )
+         } )
     }
 }
