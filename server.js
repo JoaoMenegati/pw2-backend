@@ -14,11 +14,14 @@ mongoose.connect( config.connection, { useUnifiedTopology: true, useNewUrlParser
   .catch( err => console.log( err ) )
 
 app.use( express.json() )
-app.use( cors( { origin: '127.0.0.1:3000' } ) );
 app.use( express.urlencoded( { extended: true } ) )
+
+app.use( cors( { origin: 'http://127.0.0.1:3000' } ) )
+
 app.use( routes )
 
 //Start the application on port 8081
 app.listen( 8080, () => console.log( 'Server started on 8080!' ) )
+
 
 controllerQuestion.initDatabase()
