@@ -1,0 +1,204 @@
+{
+    "questions": [
+        {
+            "question": "Quando foi observado o surgimento da COVID-19?",
+            "correctAnswer": "Dezembro de 2019",
+            "incorrectAnswers": [
+                "Outubro de 2019",
+                "Novembro de 2019",
+                "Janeiro de 2020",
+                "Fevereiro de 2020"
+            ] 
+        },
+        {
+            "question": "Em qual país foi observado o surgimento da COVID-19?",
+            "correctAnswer": "China",
+            "incorrectAnswers": [
+                "Coreia do Sul",
+                "Tailândia",
+                "Nepal",
+                "India"
+            ] 
+        },
+        {
+            "question": "Em qual estado brasileiro foi identificado o primeiro caso de infecção por COVID-19",
+            "correctAnswer": "São Paulo",
+            "incorrectAnswers": [
+                "Paraná",
+                "Distrito Federal",
+                "Rio de Janeiro",
+                "Bahia"
+            ] 
+        },
+        {
+            "question": "Quando o mundo atingiu o primeiro milhão de mortes por COVID-19?",
+            "correctAnswer": "Setembro de 2020",
+            "incorrectAnswers": [
+                "Junho de 2020",
+                "Agosto de 2020",
+                "Dezembro de 2020",
+                "Janeiro de 2021"
+            ] 
+        },
+        {
+            "question": "Quando o Brasil registrou a primeira morte por COVID-19?",
+            "correctAnswer": "Março de 2020",
+            "incorrectAnswers": [
+                "Dezembro de 2020",
+                "Janeiro de 2020",
+                "Fevereiro de 2020",
+                "Abril de 2020"
+            ] 
+        },
+        {
+            "question": "Qual das alternativas não apresenta um sintoma causado pela COVID-19?",
+            "correctAnswer": "Manchas na pele",
+            "incorrectAnswers": [
+                "Perda de olfato e paladar",
+                "Tosse",
+                "Febre",
+                "Dor de cabeça"
+            ] 
+        },
+        {
+            "question": "Qual o sistema do corpo humano mais atingido pela COVID-19?",
+            "correctAnswer": "Sistema respiratório",
+            "incorrectAnswers": [
+                "Sistema cardiovascular",
+                "Sistema digestório",
+                "Sistema nervoso",
+                "Sistema endócrino"
+            ] 
+        },
+        {
+            "question": "Quanto tempo a China levou para construir um hospital com mil leitos para combate da COVID-19 no início de 2020?",
+            "correctAnswer": "10 dias",
+            "incorrectAnswers": [
+                "7 dias",
+                "12 dias",
+                "17 dias",
+                "19 dias"
+            ] 
+        },
+        {
+            "question": "Qual das alternativas não apresenta uma medida de prevenção da COVID-19?",
+            "correctAnswer": "Ir a festas",
+            "incorrectAnswers": [
+                "Distanciamento social",
+                "Uso de máscara ao sair de casa",
+                "Higienização das mãos",
+                "Limpeza e desinfecção de ambientes"
+            ] 
+        },
+        {
+            "question": "Qual o primeiro país a iniciar a vacinação em massa contra à COVID-19?",
+            "correctAnswer": "Reino Unido",
+            "incorrectAnswers": [
+                "Canadá",
+                "Emirados Árabes",
+                "Estados Unidos",
+                "Israel"
+            ] 
+        },
+        {
+            "question": "Qual a porcentagem do álcool indicado no combate da COVID-19?",
+            "correctAnswer": "70%",
+            "incorrectAnswers": [
+                "45%",
+                "50%",
+                "55%",
+                "60%"
+            ] 
+        },
+        {
+            "question": "Após quanto tempo uma pessoa infectada com COVID-19 deixa de ser contagiosa?",
+            "correctAnswer": "De 7 a 10 dias após o surgimento de sintomas",
+            "incorrectAnswers": [
+                "De 20 a 25 dias após o surgimento de sintomas",
+                "De 17 a 22 dias após o surgimento de sintomas",
+                "De 1 a 5 dias após o surgimento de sintomas",
+                "De 10 a 17 dias após o surgimento de sintomas"
+            ] 
+        },
+        {
+            "question": "Qual o nome do teste mais conhecido na detecção da COVID-19?",
+            "correctAnswer": "PCR-RT",
+            "incorrectAnswers": [
+                "TR-PRC",
+                "PCR-TR",
+                "PPR-RC",
+                "PRT-CR"
+            ] 
+        },
+        {
+            "question": "Quais as primeiras vacinas a serem autorizadas para uso emergencial no brasil no combate à COVID-19?",
+            "correctAnswer": "CoronaVac e AstraZeneca",
+            "incorrectAnswers": [
+                "Pfizer e CoronaVac",
+                "AstraZeneca e Pfizer",
+                "Sputnik e AstraZeneca",
+                "CoronaVac e Pfizer"
+            ] 
+        },
+        {
+            "question": "Quando iniciou-se a vacinação de combate à COVID-19 no Brasil?",
+            "correctAnswer": "Janeiro de 2020",
+            "incorrectAnswers": [
+                "Novembro de 2019",
+                "Dezembro de 2019",
+                "Fevereiro de 2020",
+                "Março de 2020"
+            ] 
+        },
+        {
+            "question": "Quando a justiça federal em São Paulo determinou  que o governo federal brasileiro pare de realizar campanha em prol de medicamentos sem eficácia comprovada no combate à COVID-19?",
+            "correctAnswer": "Abril de 2021",
+            "incorrectAnswers": [
+                "Maio de 2020",
+                "Junho de 2020",
+                "Janeiro de 2021",
+                "Outubro de 2020"
+            ] 
+        },
+        {
+            "question": "Qual a primeira cidade brasileira a receber vacinação em massa no combate à COVID-19?",
+            "correctAnswer": "Serrana",
+            "incorrectAnswers": [
+                "Botucatu",
+                "Atibaia",
+                "Campos do Jordão",
+                "Brotas"
+            ] 
+        },
+        {
+            "question": "Quando o Brasil atingiu o primeiro milhão de casos confirmados de COVID-19?",
+            "correctAnswer": "Junho de 2020",
+            "incorrectAnswers": [
+                "Abril de 2020",
+                "Maio de 2020",
+                "Julho de 2020",
+                "Agosto de 2020"
+            ] 
+        },
+        {
+            "question": "Quando o Brasil atingiu a primeira centena de milhar de mortes por COVID-19?",
+            "correctAnswer": "Agosto de 2020",
+            "incorrectAnswers": [
+                "Julho de 2020",
+                "Setembro de 2020",
+                "Outubro de 2020",
+                "Novembro de 2020"
+            ] 
+        },  
+        {
+            "question": "Quando o Brasil atingiu a marca de 10 milhões de pessoas totalmente imunizadas (duas doses) contra à COVID-19?",
+            "correctAnswer": "Abril de 2020",
+            "incorrectAnswers": [
+                "Janeiro de 2020",
+                "Fevereiro de 2020",
+                "Março de 2020",
+                "Maio de 2020"
+            ] 
+        }
+    ]
+}

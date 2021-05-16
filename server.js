@@ -3,6 +3,7 @@ const mongoose = require( 'mongoose' )
 
 const config = require( './config/config' )
 const routes = require( './routes/routes' )
+const controllerQuestion = require( './controllers/controller-question' )
 
 const app = express()
 
@@ -17,3 +18,5 @@ app.use( routes )
 
 //Start the application on port 8081
 app.listen( 8080, () => console.log( 'Server started on 8080!' ) )
+
+controllerQuestion.initDatabase()
