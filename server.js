@@ -1,5 +1,6 @@
 var express = require('express')
 const mongoose = require( 'mongoose' )
+const cors = require( 'cors' )
 
 const config = require( './config/config' )
 const routes = require( './routes/routes' )
@@ -13,6 +14,7 @@ mongoose.connect( config.connection, { useUnifiedTopology: true, useNewUrlParser
   .catch( err => console.log( err ) )
 
 app.use( express.json() )
+app.use( cors( { origin: '127.0.0.1:3000' } ) );
 app.use( express.urlencoded( { extended: true } ) )
 app.use( routes )
 
