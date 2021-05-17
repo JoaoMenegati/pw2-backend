@@ -16,4 +16,4 @@ route.get( '/user/findAll', controllerUser.findAll )
 route.get( '/question/find', controllerQuestion.findQuestions )
 
 //Points routes
-route.post( '/point/update', controllerUser.updatePoints );
+route.post( '/point/update', controllerUser.updatePoints )

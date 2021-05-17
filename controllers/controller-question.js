@@ -49,7 +49,7 @@ module.exports = {
                     randomQuestions.push( question )
                     docs.splice( index, 1 )
 
-                    size--;
+                    size--
                 }
                 result.json = {
                     results: randomQuestions
