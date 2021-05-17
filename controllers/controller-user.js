@@ -92,29 +92,33 @@ module.exports = {
 
     async updatePoints( req, res ) {
         const { login, points } = req.body
-        
-        await User.findOne( { login: login }, function( err, user ) {
-            var result = {
-                status: 200,
-                json: {
-                    message: 'Pontos atualizados com Sucesso!'
-                }
+        var result = {
+            status: 200,
+            json: {
+                message: 'Pontos atualizados com Sucesso!'
             }
+        }
 
-            if( err ) {
-                console.log( err )
-                status = 500
-                result.json.message = 'Falha ao atualizar pontos!'
-            } else if( user ) {
-                user.points += points
-                user.save( function( err ) { 
+        if( !login || !points ) {
+            result.status = 400
+            result.json.message = 'Um ou mais campos obrigatórios não informados!'
+        } else {
+            await User.findOne( { login: login }, function( err, user ) {
+                if( err ) {
                     console.log( err )
                     status = 500
                     result.json.message = 'Falha ao atualizar pontos!'
-                } )
-            }
+                } else if( user ) {
+                    user.points += points
+                    user.save( function( err ) { 
+                        console.log( err )
+                        status = 500
+                        result.json.message = 'Falha ao atualizar pontos!'
+                    } )
+                }
+            } )
+        }
 
-            sendResult( res, result )
-        } )
+        sendResult( res, result )
     }
 }
