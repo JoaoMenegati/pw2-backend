@@ -6,6 +6,7 @@ const User = Schema ( {
     surname: { type: String, required: false },
     login: { type: String, required: true },
     password: { type: String, required: true },
+    points: { type: Number, required: true },
 } )
 
 module.exports = mongoose.model( 'User', User )
