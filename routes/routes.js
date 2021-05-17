@@ -7,10 +7,10 @@ module.exports = route
 const controllerUser = require( '../controllers/controller-user' )
 const controllerQuestion = require( '../controllers/controller-question' )
 
-route.post( '/user/signup', function( req, res ) {
-    controllerUser.postSignUp( req, res )
-} )
-
+//User routes
+route.post( '/user/signup', controllerUser.postSignUp )
 route.post( '/user/signin', controllerUser.postSignIn )
+route.get( '/user/findAll', controllerUser.findAll )
 
+//Question routes
 route.get( '/question/find', controllerQuestion.findQuestions )

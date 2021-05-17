@@ -13,26 +13,18 @@ mongoose.connect( config.connection, { useUnifiedTopology: true, useNewUrlParser
   .then( () => console.log( 'Connected successfully to MongoDB!' ) )
   .catch( err => console.log( err ) )
 
+//Configure express
 app.use( express.json() )
 app.use( express.urlencoded( { extended: true } ) )
 
-var whitelist = ['http://127.0.0.1:3000', 'http://localhost:3000']
-var corsOptions = {
-  origin: function( origin, callback ) {
-    if( whitelist.indexOf( origin ) !== -1 ) {
-      callback( null, true )
-    } else {
-      callback( new Error( 'Not allowed by CORS' ) )
-    }
-  }
-}
+//Configure CORS
+app.use( cors( { origin: 'http://localhost:3000' } ) )
 
-app.use( cors( corsOptions ) )
-
+//Add routes
 app.use( routes )
 
 //Start the application on port 8081
 app.listen( 8080, () => console.log( 'Server started on 8080!' ) )
 
-
+//Init the questions collection
 controllerQuestion.initDatabase()

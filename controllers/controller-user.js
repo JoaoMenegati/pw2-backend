@@ -8,8 +8,9 @@ function sendResult( res, result ) {
 
 module.exports = {
     postSignUp( req, res ) {
-        const { name, surname, login, email, password } = req.body
-        const user = new User( { name, surname, login, email, password } )
+        const { name, surname, login, password } = req.body
+        const points = 0
+        const user = new User( { name, surname, login, password, points } )
         user.save( function( err ) {
             var result = {
                 status: 200,
@@ -44,6 +45,27 @@ module.exports = {
                 result.json.message = 'Falha ao buscar usuário e senha!'
             } else if( !user ) {
                 result.status = 204
+            }
+
+            sendResult( res, result )
+        } )
+    },
+
+    findAll( req, res ) {
+        User.find( function( err, docs ) {
+            var result = {
+                status: 200,
+                json: undefined
+            }
+
+            if( err ) {
+                console.log( err )
+                result.status = 500
+                result.json = { message: 'Falha ao buscar usuários!' }
+            } else {
+                result.json = {
+                    users: docs
+                }
             }
 
             sendResult( res, result )

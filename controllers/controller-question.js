@@ -37,7 +37,7 @@ module.exports = {
             if( err ) {
                 console.log( err )
                 result.status = 500
-                result.json = { message: 'Falha ao buscar' }
+                result.json = { message: 'Falha ao buscar questões!' }
             } else {
                 const randomQuestions = []
                 var size = docs.length
