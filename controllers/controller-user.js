@@ -44,24 +44,29 @@ module.exports = {
 
     async postSignIn( req, res ) {
         const { login, password } = req.body
-        await User.findOne( { login: login, password: password }, function( err, user ) {
-            var result = {
-                status: 200,
-                json: {
-                    message: 'Login realizado com sucesso!'
+        var result = {
+            status: 200,
+            json: {
+                message: 'Login realizado com sucesso!'
+            }
+        }
+
+        if( !login || !password ) {
+            result.status = 400
+            result.json.message = 'Um ou mais campos obrigatórios não informados!'
+        } else {
+            await User.findOne( { login: login, password: password }, function( err, user ) {
+                if( err ) {
+                    console.log( err )
+                    status = 500
+                    result.json.message = 'Falha ao buscar usuário e senha!'
+                } else if( !user ) {
+                    result.status = 204
                 }
-            }
+            } )
+        }
 
-            if( err ) {
-                console.log( err )
-                status = 500
-                result.json.message = 'Falha ao buscar usuário e senha!'
-            } else if( !user ) {
-                result.status = 204
-            }
-
-            sendResult( res, result )
-        } )
+        sendResult( res, result )
     },
 
     async findAll( req, res ) {
