@@ -70,5 +70,33 @@ module.exports = {
 
             sendResult( res, result )
         } )
+    },
+
+    updatePoints( req, res ) {
+        const { login, points } = req.body
+        
+        User.findOne( { login: login }, function( err, user ) {
+            var result = {
+                status: 200,
+                json: {
+                    message: 'Pontos atualizados com Sucesso!'
+                }
+            }
+
+            if( err ) {
+                console.log( err )
+                status = 500
+                result.json.message = 'Falha ao atualizar pontos!'
+            } else if( user ) {
+                user.points += points
+                user.save( function( err ) { 
+                    console.log( err )
+                    status = 500
+                    result.json.message = 'Falha ao atualizar pontos!'
+                } )
+            }
+
+            sendResult( res, result )
+        } )
     }
 }
