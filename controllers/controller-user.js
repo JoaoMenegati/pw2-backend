@@ -7,31 +7,44 @@ function sendResult( res, result ) {
 }
 
 module.exports = {
-    postSignUp( req, res ) {
+    async postSignUp( req, res ) {
         const { name, surname, login, password } = req.body
         const points = 0
-        const user = new User( { name, surname, login, password, points } )
-        user.save( function( err ) {
-            var result = {
-                status: 200,
-                json: {
-                    message: 'Usuário cadastrado com sucesso!'
+
+        var result = {
+            status: 200,
+            json: {
+                message: 'Usuário cadastrado com sucesso!'
+            }
+        }
+
+        if( !name || !surname || !login || !password ) {
+            result.status = 400
+            result.json.message = 'Um ou mais campos obrigatórios não informados!'
+        } else {
+            await User.findOne( { login: login }, function( err, user ) {
+                if( user ) {
+                    result.status = 400
+                    result.json.message = 'Nome de usuário indisponível!'
+                } else {
+                    const user = new User( { name, surname, login, password, points } )
+                    user.save( function( err ) {
+                        if( err ) {
+                            console.log( err )
+                            result.status = 500
+                            result.json.message = 'Falha ao cadastrar usuário!'
+                        }
+                    } )
                 }
-            }
+            } )
+        }
 
-            if( err ) {
-                console.log( err )
-                result.status = 500
-                result.json.message = 'Falha ao cadastrar usuário!'
-            }
-
-            sendResult( res, result )
-        } )
+        sendResult( res, result )
     },
 
-    postSignIn( req, res ) {
+    async postSignIn( req, res ) {
         const { login, password } = req.body
-        User.findOne( { login: login, password: password }, function( err, user ) {
+        await User.findOne( { login: login, password: password }, function( err, user ) {
             var result = {
                 status: 200,
                 json: {
@@ -51,8 +64,8 @@ module.exports = {
         } )
     },
 
-    findAll( req, res ) {
-        User.find( function( err, docs ) {
+    async findAll( req, res ) {
+        await User.find( function( err, docs ) {
             var result = {
                 status: 200,
                 json: undefined
@@ -72,10 +85,10 @@ module.exports = {
         } )
     },
 
-    updatePoints( req, res ) {
+    async updatePoints( req, res ) {
         const { login, points } = req.body
         
-        User.findOne( { login: login }, function( err, user ) {
+        await User.findOne( { login: login }, function( err, user ) {
             var result = {
                 status: 200,
                 json: {
