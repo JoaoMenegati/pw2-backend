@@ -5,6 +5,7 @@ const cors = require( 'cors' )
 const config = require( './config/config' )
 const routes = require( './routes/routes' )
 const controllerQuestion = require( './controllers/controller-question' )
+const middlewares = require( './middlewares/middlewares' )
 
 const app = express()
 
@@ -19,6 +20,9 @@ app.use( express.urlencoded( { extended: true } ) )
 
 //Configure CORS
 app.use( cors( { origin: 'http://localhost:3000' } ) )
+
+//Add middleware
+app.use( middlewares.logRegister )
 
 //Add routes
 app.use( routes )
