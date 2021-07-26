@@ -58,5 +58,26 @@ module.exports = {
 
             sendResult( res, result )
          } )
+    },
+
+    async findAllQuestions( req, res ) {
+        await Question.find( function( err, docs ) {
+            var result = {
+                status: 200,
+                json: undefined
+            }
+
+            if( err ) {
+                console.log( err )
+                result.status = 500
+                result.json = { message: 'Falha ao buscar questões!' }
+            } else {
+                result.json = {
+                    results: docs
+                }
+            }
+
+            sendResult( res, result )
+        } )
     }
 }
