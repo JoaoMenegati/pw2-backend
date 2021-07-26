@@ -8,7 +8,7 @@ function sendResult( res, result ) {
 
 module.exports = {
     async postSignUp( req, res ) {
-        const { name, surname, login, password } = req.body
+        const { name, surname, login, password, admin } = req.body
         const points = 0
 
         var result = {
@@ -27,7 +27,7 @@ module.exports = {
                     result.status = 400
                     result.json.message = 'Nome de usuário indisponível!'
                 } else {
-                    const user = new User( { name, surname, login, password, points } )
+                    const user = new User( { name, surname, login, password, points, admin } )
                     user.save( function( err ) {
                         if( err ) {
                             console.log( err )
