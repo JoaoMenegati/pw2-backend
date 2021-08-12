@@ -17,6 +17,7 @@ module.exports = {
                     question.question = questionFromList.question
                     question.correctAnswer = questionFromList.correctAnswer
                     question.incorrectAnswers = questionFromList.incorrectAnswers
+                    question.dificulty = questionFromList.dificulty
                     question.save( function( err ) {
                         if( err ) {
                             console.log( err )
@@ -28,7 +29,12 @@ module.exports = {
     },
 
     findQuestions( req, res ) {
-         Question.find( function( err, docs ) {
+        var dificulty = parseInt(req.query.dificulty)
+        if( !dificulty || dificulty < 1){
+            dificulty = 1
+        }
+
+        Question.find({ dificulty: dificulty }, function( err, docs ) {
             var result = {
                 status: 200,
                 json: undefined

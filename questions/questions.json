@@ -8,7 +8,8 @@
                 "Novembro de 2019",
                 "Janeiro de 2020",
                 "Fevereiro de 2020"
-            ] 
+            ],
+            "dificulty": 1
         },
         {
             "question": "Em qual país foi observado o surgimento da COVID-19?",
@@ -18,7 +19,8 @@
                 "Tailândia",
                 "Nepal",
                 "India"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Em qual estado brasileiro foi identificado o primeiro caso de infecção por COVID-19",
@@ -28,7 +30,8 @@
                 "Distrito Federal",
                 "Rio de Janeiro",
                 "Bahia"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Quando o mundo atingiu o primeiro milhão de mortes por COVID-19?",
@@ -38,7 +41,8 @@
                 "Agosto de 2020",
                 "Dezembro de 2020",
                 "Janeiro de 2021"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Quando o Brasil registrou a primeira morte por COVID-19?",
@@ -48,7 +52,8 @@
                 "Janeiro de 2020",
                 "Fevereiro de 2020",
                 "Abril de 2020"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Qual das alternativas não apresenta um sintoma causado pela COVID-19?",
@@ -58,7 +63,8 @@
                 "Tosse",
                 "Febre",
                 "Dor de cabeça"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Qual o sistema do corpo humano mais atingido pela COVID-19?",
@@ -68,7 +74,8 @@
                 "Sistema digestório",
                 "Sistema nervoso",
                 "Sistema endócrino"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Quanto tempo a China levou para construir um hospital com mil leitos para combate da COVID-19 no início de 2020?",
@@ -78,7 +85,8 @@
                 "12 dias",
                 "17 dias",
                 "19 dias"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Qual das alternativas não apresenta uma medida de prevenção da COVID-19?",
@@ -88,7 +96,8 @@
                 "Uso de máscara ao sair de casa",
                 "Higienização das mãos",
                 "Limpeza e desinfecção de ambientes"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Qual o primeiro país a iniciar a vacinação em massa contra à COVID-19?",
@@ -98,7 +107,8 @@
                 "Emirados Árabes",
                 "Estados Unidos",
                 "Israel"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Qual a porcentagem do álcool indicado no combate da COVID-19?",
@@ -108,7 +118,8 @@
                 "50%",
                 "55%",
                 "60%"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Após quanto tempo uma pessoa infectada com COVID-19 deixa de ser contagiosa?",
@@ -118,7 +129,8 @@
                 "De 17 a 22 dias após o surgimento de sintomas",
                 "De 1 a 5 dias após o surgimento de sintomas",
                 "De 10 a 17 dias após o surgimento de sintomas"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Qual o nome do teste mais conhecido na detecção da COVID-19?",
@@ -128,7 +140,8 @@
                 "PCR-TR",
                 "PPR-RC",
                 "PRT-CR"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Quais as primeiras vacinas a serem autorizadas para uso emergencial no brasil no combate à COVID-19?",
@@ -138,7 +151,8 @@
                 "AstraZeneca e Pfizer",
                 "Sputnik e AstraZeneca",
                 "CoronaVac e Pfizer"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Quando iniciou-se a vacinação de combate à COVID-19 no Brasil?",
@@ -148,7 +162,8 @@
                 "Dezembro de 2019",
                 "Fevereiro de 2020",
                 "Março de 2020"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Quando a justiça federal em São Paulo determinou  que o governo federal brasileiro pare de realizar campanha em prol de medicamentos sem eficácia comprovada no combate à COVID-19?",
@@ -158,7 +173,8 @@
                 "Junho de 2020",
                 "Janeiro de 2021",
                 "Outubro de 2020"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Qual a primeira cidade brasileira a receber vacinação em massa no combate à COVID-19?",
@@ -168,7 +184,8 @@
                 "Atibaia",
                 "Campos do Jordão",
                 "Brotas"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Quando o Brasil atingiu o primeiro milhão de casos confirmados de COVID-19?",
@@ -178,7 +195,8 @@
                 "Maio de 2020",
                 "Julho de 2020",
                 "Agosto de 2020"
-            ] 
+            ],
+            "dificulty": 1 
         },
         {
             "question": "Quando o Brasil atingiu a primeira centena de milhar de mortes por COVID-19?",
@@ -188,7 +206,8 @@
                 "Setembro de 2020",
                 "Outubro de 2020",
                 "Novembro de 2020"
-            ] 
+            ],
+            "dificulty": 1 
         },  
         {
             "question": "Quando o Brasil atingiu a marca de 10 milhões de pessoas totalmente imunizadas (duas doses) contra à COVID-19?",
@@ -198,7 +217,8 @@
                 "Fevereiro de 2020",
                 "Março de 2020",
                 "Maio de 2020"
-            ] 
+            ],
+            "dificulty": 1 
         }
     ]
 }
