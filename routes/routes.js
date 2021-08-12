@@ -15,6 +15,7 @@ route.get( '/user/findAll', controllerUser.findAll )
 //Question routes
 route.get( '/question/find', controllerQuestion.findQuestions )
 route.get( '/question/findAll', controllerQuestion.findAllQuestions )
+route.post( '/question/updateQuestions', controllerQuestion.postQuestions )
 
 //Points routes
 route.post( '/point/update', controllerUser.updatePoints )
