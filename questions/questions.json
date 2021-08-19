@@ -9,7 +9,7 @@
                 "Janeiro de 2020",
                 "Fevereiro de 2020"
             ],
-            "dificulty": 1
+            "dificulty": 2
         },
         {
             "question": "Em qual país foi observado o surgimento da COVID-19?",
@@ -31,7 +31,7 @@
                 "Rio de Janeiro",
                 "Bahia"
             ],
-            "dificulty": 1 
+            "dificulty": 2 
         },
         {
             "question": "Quando o mundo atingiu o primeiro milhão de mortes por COVID-19?",
@@ -42,7 +42,7 @@
                 "Dezembro de 2020",
                 "Janeiro de 2021"
             ],
-            "dificulty": 1 
+            "dificulty": 3
         },
         {
             "question": "Quando o Brasil registrou a primeira morte por COVID-19?",
@@ -53,7 +53,7 @@
                 "Fevereiro de 2020",
                 "Abril de 2020"
             ],
-            "dificulty": 1 
+            "dificulty": 2 
         },
         {
             "question": "Qual das alternativas não apresenta um sintoma causado pela COVID-19?",
@@ -75,7 +75,7 @@
                 "Sistema nervoso",
                 "Sistema endócrino"
             ],
-            "dificulty": 1 
+            "dificulty": 2
         },
         {
             "question": "Quanto tempo a China levou para construir um hospital com mil leitos para combate da COVID-19 no início de 2020?",
@@ -86,7 +86,7 @@
                 "17 dias",
                 "19 dias"
             ],
-            "dificulty": 1 
+            "dificulty": 3
         },
         {
             "question": "Qual das alternativas não apresenta uma medida de prevenção da COVID-19?",
@@ -108,7 +108,7 @@
                 "Estados Unidos",
                 "Israel"
             ],
-            "dificulty": 1 
+            "dificulty": 2
         },
         {
             "question": "Qual a porcentagem do álcool indicado no combate da COVID-19?",
@@ -119,7 +119,7 @@
                 "55%",
                 "60%"
             ],
-            "dificulty": 1 
+            "dificulty": 2
         },
         {
             "question": "Após quanto tempo uma pessoa infectada com COVID-19 deixa de ser contagiosa?",
@@ -130,7 +130,7 @@
                 "De 1 a 5 dias após o surgimento de sintomas",
                 "De 10 a 17 dias após o surgimento de sintomas"
             ],
-            "dificulty": 1 
+            "dificulty": 3
         },
         {
             "question": "Qual o nome do teste mais conhecido na detecção da COVID-19?",
@@ -141,7 +141,7 @@
                 "PPR-RC",
                 "PRT-CR"
             ],
-            "dificulty": 1 
+            "dificulty": 3
         },
         {
             "question": "Quais as primeiras vacinas a serem autorizadas para uso emergencial no brasil no combate à COVID-19?",
@@ -152,7 +152,7 @@
                 "Sputnik e AstraZeneca",
                 "CoronaVac e Pfizer"
             ],
-            "dificulty": 1 
+            "dificulty": 2
         },
         {
             "question": "Quando iniciou-se a vacinação de combate à COVID-19 no Brasil?",
@@ -163,7 +163,7 @@
                 "Fevereiro de 2020",
                 "Março de 2020"
             ],
-            "dificulty": 1 
+            "dificulty": 2
         },
         {
             "question": "Quando a justiça federal em São Paulo determinou  que o governo federal brasileiro pare de realizar campanha em prol de medicamentos sem eficácia comprovada no combate à COVID-19?",
@@ -174,7 +174,7 @@
                 "Janeiro de 2021",
                 "Outubro de 2020"
             ],
-            "dificulty": 1 
+            "dificulty": 3
         },
         {
             "question": "Qual a primeira cidade brasileira a receber vacinação em massa no combate à COVID-19?",
@@ -185,7 +185,7 @@
                 "Campos do Jordão",
                 "Brotas"
             ],
-            "dificulty": 1 
+            "dificulty": 3
         },
         {
             "question": "Quando o Brasil atingiu o primeiro milhão de casos confirmados de COVID-19?",
@@ -196,7 +196,7 @@
                 "Julho de 2020",
                 "Agosto de 2020"
             ],
-            "dificulty": 1 
+            "dificulty": 3
         },
         {
             "question": "Quando o Brasil atingiu a primeira centena de milhar de mortes por COVID-19?",
@@ -207,7 +207,7 @@
                 "Outubro de 2020",
                 "Novembro de 2020"
             ],
-            "dificulty": 1 
+            "dificulty": 3 
         },  
         {
             "question": "Quando o Brasil atingiu a marca de 10 milhões de pessoas totalmente imunizadas (duas doses) contra à COVID-19?",
@@ -218,7 +218,348 @@
                 "Março de 2020",
                 "Maio de 2020"
             ],
-            "dificulty": 1 
+            "dificulty": 3
+        },
+        {
+            "question": "A COVID-19 é transmitida por um:",
+            "correctAnswer": "Vírus",
+            "incorrectAnswers": [
+                "Bactéria",
+                "Microorganismo",
+                "Micróbio",
+                "Molécula"
+            ],
+            "dificulty": 1
+        },
+        {
+            "question": "Quais destes NÃO são um fator de risco para casos graves de COVID-19:",
+            "correctAnswer": "Canhoto",
+            "incorrectAnswers": [
+                "Obesidade",
+                "Idade Avançada",
+                "Diabetes",
+                "Hipertensão"
+            ],
+            "dificulty": 1
+        },
+        {
+            "question": "Qual destas não é uma variante do vírus em circulação",
+            "correctAnswer": "Foxtrot",
+            "incorrectAnswers": [
+                "Alfa",
+                "Beta",
+                "Gama",
+                "Delta"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "O que é tempestade inflamatória?",
+            "correctAnswer": "Reação exagerada do sistema imunológico ao coronavírus",
+            "incorrectAnswers": [
+                "Chuvas tropicais que ocorrem no golfo do méxico",
+                "Efeito de uso exacerbado de antinflamatórios",
+                "Reação do sistema endócrino ao consumo de ergogênicos",
+                "Tempestades que por sua composição química, geram inflamações no corpo humano."
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "As vacinas contra o Coronavírus são seguras?",
+            "correctAnswer": "Sim",
+            "incorrectAnswers": [
+                "Somente a da Pfizer",
+                "Somente a CoronaVac",
+                "Não",
+                "Somente a Janssen"
+            ],
+            "dificulty": 1
+        },
+        {
+            "question": "Qual a diferença entre um registro definitivo e uma aprovação emergencial para o uso de vacinas?",
+            "correctAnswer": "Pedido Emergencial confere mais agilidade para a disponibilização, mas necessita de estabelecer o público alvo, já o pedido definitivo permite o uso para todo o público informado na bula.",
+            "incorrectAnswers": [
+                "Pedido Emergencial é concedido pelo governo para auxiliar a passar pela crise do COVID-19, e definitivo é a aposentadoria",
+                "Pedido Emergencial confere a qualquer cidadão o direito de produzir e comercializar vacinas, já o pedido definitivo é concedido apenas a farmácias reguladas",
+                "Não existem diferenças entre estes",
+                "Pedido emergencial tem a validade de três meses após a publicação, já o definitivo é por prazo indeterminado."
+            ],
+            "dificulty": 3
+        },
+        {
+            "question": "Sobre as Vacinas de Vetores Virais informe a alternativa correta:",
+            "correctAnswer": "Plataforma inovadora, mas com produtos já licenciados como vacina para Ebola e medicamentos para tratamento de carcinomas",
+            "incorrectAnswers": [
+                "Plataforma inovadora, sendo a vacina para o Covid-19 a primeira utilização",
+                "Vacina de fácil atualização em caso de aparecimento de mutações importantes e que levem ao vírus escapar a resposta imune gerada pela vacinação",
+                "Vacina com complexidade média em caso de necessidade de atualização devido a mutações importantes e que levem ao vírus escapar a resposta imune gerada pela vacinação.",
+                "Método utilizado a muito tempo para a criação de vacinas, que utiliza de um vírus inativo para induzir a imunidade."
+            ],
+            "dificulty": 3
+        },
+        {
+            "question": "Sobre as Vacinas Baseadas em Proteínas informe a alternativa correta",
+            "correctAnswer": "Vacina com complexidade média em caso de necessidade de atualização devido a mutações importantes e que levem ao vírus escapar a resposta imune gerada pela vacinação",
+            "incorrectAnswers": [
+                "Plataforma inovadora, sendo a vacina para o Covid-19 a primeira utilização",
+                "Vacina de fácil atualização em caso de aparecimento de mutações importantes e que levem ao vírus escapar a resposta imune gerada pela vacinação",
+                "Plataforma inovadora, mas com produtos já licenciados como vacina para Ebola e medicamentos para tratamento de carcinomas",
+                "Método utilizado a muito tempo para a criação de vacinas, que utiliza de um vírus inativo para induzir a imunidade."
+            ],
+            "dificulty": 3
+        },
+        {
+            "question": "Sobre as Vacinas Genéticas (mRNA) informe a alternativa correta",
+            "correctAnswer": "Vacina de fácil atualização em caso de aparecimento de mutações importantes e que levem ao vírus escapar a resposta imune gerada pela vacinação",
+            "incorrectAnswers": [
+                "Plataforma inovadora, sendo a vacina para o Covid-19 a primeira utilização",
+                "Vacina com complexidade média em caso de necessidade de atualização devido a mutações importantes e que levem ao vírus escapar a resposta imune gerada pela vacinação",
+                "Plataforma inovadora, mas com produtos já licenciados como vacina para Ebola e medicamentos para tratamento de carcinomas",
+                "Método utilizado a muito tempo para a criação de vacinas, que utiliza de um vírus inativo para induzir a imunidade."
+            ],
+            "dificulty": 3
+        },
+        {
+            "question": "As vacinas podem causar autismo?",
+            "correctAnswer": "Não",
+            "incorrectAnswers": [
+                "Sim",
+                "Apenas em pessoas com predestinação a doença",
+                "Apenas em pessoas com propensão à doença",
+                "Em um número entre 0.2% a 1% dos vacinados"
+            ],
+            "dificulty": 1
+        },
+        {
+            "question": "As vacinas são compatíveis com nosso organismo?",
+            "correctAnswer": "Sim",
+            "incorrectAnswers": [
+                "Não por apresentarem substâncias tóxicas",
+                "Apenas em alguns tipos de vacinas",
+                "Não por serem importadas",
+                "Não por causarem doenças renais"
+            ],
+            "dificulty": 1
+        },
+        {
+            "question": "A vacina tem elevado risco de causar complicações graves, como autismo ou infertilidade?",
+            "correctAnswer": "Não podem gerar nenhum destes efeitos colaterais",
+            "incorrectAnswers": [
+                "Pode gerar infertilidade, porém não há casos de complicações na gravidez",
+                "Pode gerar complicações na gravidez, porém não há casos de infertilidade",
+                "Ambos os efeitos são normais em todas as vacinas",
+                "Ambos os efeitos são normais em algumas vacinas"
+            ],
+            "dificulty": 1
+        },
+        {
+            "question": "O Corona vírus é mais letal que seus antecessores SARS e MERS?",
+            "correctAnswer": "Não, tem uma taxa de mortalidade de aproximadamente 4,15% enquanto a SARS chegou a 8% e a MARS a 34%",
+            "incorrectAnswers": [
+                "Sim com uma taxa de mortalidade de mais de 7% enquanto as outras não passaram de 3%",
+                "Sim, apresenta uma taxa de mortalidade próxima a de 40%",
+                "Não, apresenta uma taxa de mortalidade inferior a 0,015%",
+                "Ambas apresentam a mesma taxa de mortalidade"
+            ],
+            "dificulty": 3
+        },
+        {
+            "question": "Qual foi o principal fator que fez o COVID-19 fazer mais vítimas que a SARS e o MERS?",
+            "correctAnswer": "A alta taxa de infecciosidade que o vírus apresenta, aliada a falta de imunidade do corpo humano à ele",
+            "incorrectAnswers": [
+                "A capacidade do vírus de resistir à altas temperaturas",
+                "A resistência do vírus a produtos químicos como álcool o que dificulta a desinfecção",
+                "A falta de informação a respeito do vírus e dos métodos de prevenção",
+                "A não adoção de medidas restritivas que mitigaram o contágio pelo vírus"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "“Em ato publicado no Diário Oficial da União (DOU) desta sexta-feira (03.07.2020), o presidente Jair Bolsonaro sancionou com vetos a Lei nº 14.019/2020, aprovada pelo Congresso Nacional, para tornar obrigatório o usa de máscaras de proteção individual [...] durante a pandemia do novo coronavírus, que causa a Covid-19”. De acordo com a Lei, é obrigatório o uso de máscaras",
+            "correctAnswer": "Em estabelecimentos comerciais, templos religiosos, escolas e demais locais fechados em que haja reunião de pessoas",
+            "incorrectAnswers": [
+                "por populações vulneráveis que deverão receber, obrigatoriamente, esse equipamento do poder público",
+                "em órgãos públicos que serão obrigados a fornecer esse tipo de proteção aos contribuintes que tiverem motivos para estar no local",
+                "em transportes públicos coletivos, como ônibus, aeronaves e veículos de aplicativo e em prisões",
+                "por atletas e competidores de todas as modalidades, independentemente de a prática acontecer em locais fechados ou a céu aberto"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "Um novo coronavírus foi identificado pela primeira vez em fins de 2019. A esse respeito, marque a afirmativa INCORRETA",
+            "correctAnswer": "Os principais grupos considerados de risco são crianças e adolescentes",
+            "incorrectAnswers": [
+                "Covid-19 foi o nome dado à doença causada pelo novo coronavírus",
+                "Esse novo coronavírus foi identificado primeiramente na China",
+                "Sintomas comuns associados à doença são febre, tosse e dor de garganta",
+                "Todas estão corretas"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "Ministério da Saúde habilita mais de 11 mil leitos de UTI para Covid-19. Qual o significado da sigla UTI?",
+            "correctAnswer": "Unidade de Terapia Intensiva",
+            "incorrectAnswers": [
+                "Unidade de Tratamento Importante",
+                "Urgência de Tratamento Intensiva",
+                "Urgência de Tratamento Importante",
+                "Unidade de Terapia Importante"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "Recentemente, a Organização Mundial da Saúde decidiu conferir um nome oficial à infeção provocada pelo coronavírus detectado na China. Decidiu-se por um nome que não fizesse referência a uma localização geográfica específica, um animal ou grupo de pessoas, para evitar estigmatizações. Marque a alternativa que indica o nome escolhido",
+            "correctAnswer": "Covid-19",
+            "incorrectAnswers": [
+                "H1N1",
+                "Gripe Suína",
+                "Influenzavirus A",
+                "Sarampo"
+            ],
+            "dificulty": 1
+        },
+        {
+            "question": "As gestantes, que haviam sido incluídas no grupo prioritário de vacinação contra a covid, tiveram sua conquista limitada pela Agência Nacional de Vigilância Sanitária (ANVISA), por ter ocorrido a morte de uma delas após ser vacinada. Qual das vacinas usadas no Brasil foi, supostamente, a causadora desta ocorrência",
+            "correctAnswer": "AstraZeneca",
+            "incorrectAnswers": [
+                "Pfizer",
+                "CoronaVac",
+                "Sinovac",
+                "Janssen"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "Em uma primeira análise a Anvisa rejeitou a importação da vacina produzida na Rússia, sob a alegação de que esta poderia ocasionar danos à saúde. Qual é o nome desta vacina?",
+            "correctAnswer": "Sputnik V",
+            "incorrectAnswers": [
+                "Butanvac",
+                "AstraZeneca",
+                "Coronavac",
+                "Janssen"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "Os coronavírus são uma extensa família de vírus que podem causar doenças em animais e humanos. Em humanos, sabe-se que vários coronavírus causam infecções respiratórias, que podem variar do resfriado comum a doenças mais graves, como a síndrome respiratória do Oriente Médio (MERS) e a síndrome respiratória aguda grave (SARS). O coronavírus descoberto mais recentemente causa a doença de coronavírus COVID-19, a qual é de notificação compulsória, sobre a COVID – 19 é correto afirmar que:",
+            "correctAnswer": "Muitas pessoas com a COVID-19 apresentam apenas sintomas leves, principalmente nos estágios iniciais da doença. Nesse estágio, o contágio pode acontecer",
+            "incorrectAnswers": [
+                "O resultado positivo para o COVID -19 se dá apenas com o exame RT-PCR",
+                "Os testes rápidos realizados atualmente podem indicar separadamente: se a pessoa está com a doença ativa (IGG positivo), ou se ja teve contato com o COVID -19 anteriormente (IGM positivo)",
+                "Nenhuma das alternativas estão corretas",
+                "Todas as alternativas são corretas"
+            ],
+            "dificulty": 3
+        },
+        {
+            "question": "A Anvisa aprovou, em 31/03, o pedido de uso emergencial de uma vacina de dose única contra a Covid-19. O imunizante será importado, mas na data da aprovação ainda não tinha previsão de parceria para produção nacional. De qual farmacêutica é esta vacina?",
+            "correctAnswer": "Da farmacêutica Janssen, do grupo Johnson & Johnson",
+            "incorrectAnswers": [
+                "Da farmacêutica Vir Biotechnology",
+                "Da farmacêutica GlaxoSmithKline (GSK)",
+                "Da farmacêutica Coronavac",
+                "Da farmacêutica Pfizer"
+            ],
+            "dificulty": 3
+        },
+        {
+            "question": "Marque a alternativa que NÃO contém vacinas contra a Covid-19",
+            "correctAnswer": "EMS/Brasilian",
+            "incorrectAnswers": [
+                "Oxford/AstraZeneca/Fiocruz",
+                "Pfizer/BioNTech",
+                "Butantan/CoronaVac",
+                "CoronaVac/Janssen/Pfizer"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "O governo da Bahia prorrogou a restrição da locomoção noturna de pessoas. A medida que tem como objetivo conter a disseminação do novo Coronavírus. Como é chamada essa restrição da locomoção noturna?",
+            "correctAnswer": "Toque de recolher",
+            "incorrectAnswers": [
+                "Isolamento",
+                "Lockdown",
+                "Quarentena",
+                "Home office"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "Muito se tem ouvido falar sobre as variantes que surgiram após a disseminação do coronavírus em um ou outro país. Mas afinal, o que é a variante de um vírus?",
+            "correctAnswer": "É um vírus que descende do que foi identificado primeiro, após sofrer algum tipo de mutação, podendo ficar mais ou menos agressivo",
+            "incorrectAnswers": [
+                "É um vírus descendente do primeiro, que será sempre mais agressivo",
+                "É um novo tipo de vírus, independente do primeiro, mas que surge sem que este já tenha sido eliminado",
+                "É um vírus descendente do primeiro, que será sempre menos agressivo",
+                "É uma invenção da mídia para vender mais máscaras"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "A Covid-19 é uma infecção respiratória aguda causada pelo coronavírus SARS-CoV-2, potencialmente grave, de elevada transmissibilidade e de distribuição global. Este betacoronavírus foi descoberto em amostras obtidas de pacientes com pneumonia de causa desconhecida em dezembro de 2019 na cidade chinesa de:",
+            "correctAnswer": "Wuhan",
+            "incorrectAnswers": [
+                "Chengdu",
+                "Xangai",
+                "Hangzhou",
+                "Taboão da Serra"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "Apesar de convivermos com a pandemia da Covid-19 há mais de um ano, muitas pessoas continuam errando no uso de máscara de proteção. Neste sentido, marque a alternativa CORRETA:",
+            "correctAnswer": "A máscara é de uso individual",
+            "incorrectAnswers": [
+                "A máscara pode ser grande ou pequena demais",
+                "A máscara pode ser usada com o nariz de fora",
+                "A máscara pode ser usada por período prolongado",
+                "A máscara mesmo no bolso, tem o mesmo efeito que no rosto"
+            ],
+            "dificulty": 1
+        },
+        {
+            "question": "As etapas iniciais do estudo mostraram que, embora não seja eficaz contra o coronavírus, a vacina ________________ajuda a estimular o sistema imunológico para combater a covid-19, reduzindo em 54% os casos sintomáticos e em 74% as internações. Segundo os especialistas, isso acontece porque o imunizante ajuda o corpo a combater vários tipos de infecção. A alternativa que completa corretamente lacuna acima é: ",
+            "correctAnswer": "Tríplice Viral",
+            "incorrectAnswers": [
+                "HPV",
+                "Rotavírus",
+                "Coronavac",
+                "Malária"
+            ],
+            "dificulty": 3
+        },
+        {
+            "question": "Em janeiro do ano em curso (2020), o Ministério da Saúde confirmou alguns casos suspeitos de Coronavírus no Brasil. As pessoas com esses sintomas retornaram de qual país?",
+            "correctAnswer": "China",
+            "incorrectAnswers": [
+                "Estados Unidos",
+                "Japão",
+                "Coreia do Sul",
+                "Alemanha"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "Qual é o significado da palavra inglesa LOCKDOWN, que hoje reflete uma necessidade imposta em muitos lugares como forma de conter a proliferação do coronavírus?",
+            "correctAnswer": "Confinamento",
+            "incorrectAnswers": [
+                "Abertura",
+                "Contingência",
+                "Flexibilização",
+                "Toque de Recolher"
+            ],
+            "dificulty": 2
+        },
+        {
+            "question": "Se estiver doente, com sintomas compatíveis com a COVID-19 evite contato físico com outras pessoas, incluindo os familiares, principalmente, idosos e doentes crônicos. Assinale a alternativa INCORRETA em relação como você deve se comportar em casa caso more com outros familiares",
+            "correctAnswer": "Separe toalhas de banho, garfos, facas, colheres, copos e outros objetos apenas para seu uso. O lixo produzido pode ser descartado junto com os da casa",
+            "incorrectAnswers": [
+                "Se for preciso cozinhar, use máscara de proteção, cobrindo boca e nariz todo o tempo",
+                "Utilize máscara o tempo todo",
+                "Depois de usar o banheiro, nunca deixe de lavar as mãos com água e sabão e sempre limpe vaso mantendo a tampa fechada, pia e demais superfícies com álcool, água sanitária ou outro produto recomendado pela Agência Nacional de Vigilância Sanitária – Anvisa - para desinfecção do ambiente",
+                "Todas estão corretas"
+            ],
+            "dificulty": 2
         }
     ]
 }
