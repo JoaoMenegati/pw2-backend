@@ -102,17 +102,20 @@ module.exports = {
             result.json.message = 'Um ou mais campos obrigatórios não informados!'
         } else {
             await Question.findOne( { question: question }, function( err, questionResp ) {
-                if( questionResp ) {
-                    result.status = 400
-                    result.json.message = 'Questão já cadastrada!'
-                } else {
-                    const questionResp = new Question( { question, correctAnswer, incorrectAnswers, dificulty} )
-                    questionResp.save( function( err ) {
-                        if( err ) {
-                            console.log( err )
-                            result.status = 500
-                            result.json.message = 'Falha ao atualizar questões!'
-                        }
+                if( err ) {
+                    console.log( err )
+                    status = 500
+                    result.json.message = 'Falha ao atualizar questão!'
+                } else if( questionResp ) {
+                    questionResp.question = question;
+                    questionResp.correctAnswer = correctAnswer;
+                    questionResp.incorrectAnswers = incorrectAnswers;
+                    questionResp.dificulty = dificulty;
+
+                    questionResp.save( function( err ) { 
+                        console.log( err )
+                        status = 500
+                        result.json.message = 'Falha ao atualizar questão!'
                     } )
                 }
             } )
