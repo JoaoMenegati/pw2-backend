@@ -17,6 +17,7 @@ module.exports = {
                     question.question = questionFromList.question
                     question.correctAnswer = questionFromList.correctAnswer
                     question.incorrectAnswers = questionFromList.incorrectAnswers
+                    question.dificulty = questionFromList.dificulty
                     question.save( function( err ) {
                         if( err ) {
                             console.log( err )
@@ -28,7 +29,12 @@ module.exports = {
     },
 
     findQuestions( req, res ) {
-         Question.find( function( err, docs ) {
+        var dificulty = parseInt(req.query.dificulty)
+        if( !dificulty || dificulty < 1){
+            dificulty = 1
+        }
+
+        Question.find({ dificulty: dificulty }, function( err, docs ) {
             var result = {
                 status: 200,
                 json: undefined
@@ -58,5 +64,63 @@ module.exports = {
 
             sendResult( res, result )
          } )
+    },
+
+    async findAllQuestions( req, res ) {
+        await Question.find( function( err, docs ) {
+            var result = {
+                status: 200,
+                json: undefined
+            }
+
+            if( err ) {
+                console.log( err )
+                result.status = 500
+                result.json = { message: 'Falha ao buscar questões!' }
+            } else {
+                result.json = {
+                    results: docs
+                }
+            }
+
+            sendResult( res, result )
+        } )
+    },
+
+    async postQuestions(req, res){
+        const { question, correctAnswer, incorrectAnswers, dificulty } = req.body
+
+        var result = {
+            status: 200,
+            json: {
+                message: 'Questões atualizadas com sucesso!'
+            }
+        }
+
+        if( !question || !correctAnswer || !incorrectAnswers || !dificulty ) {
+            result.status = 400
+            result.json.message = 'Um ou mais campos obrigatórios não informados!'
+        } else {
+            await Question.findOne( { question: question }, function( err, questionResp ) {
+                if( err ) {
+                    console.log( err )
+                    status = 500
+                    result.json.message = 'Falha ao atualizar questão!'
+                } else if( questionResp ) {
+                    questionResp.question = question;
+                    questionResp.correctAnswer = correctAnswer;
+                    questionResp.incorrectAnswers = incorrectAnswers;
+                    questionResp.dificulty = dificulty;
+
+                    questionResp.save( function( err ) { 
+                        console.log( err )
+                        status = 500
+                        result.json.message = 'Falha ao atualizar questão!'
+                    } )
+                }
+            } )
+        }
+
+        sendResult( res, result )
     }
 }
