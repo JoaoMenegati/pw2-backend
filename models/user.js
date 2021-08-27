@@ -7,7 +7,7 @@ const User = Schema ( {
     login: { type: String, required: true },
     password: { type: String, required: true },
     points: { type: Number, required: true },
-    admin:{type: Boolean, default: false, required: true},
+    admin: {type: Boolean, default: false, required: true},
 } )
 
 module.exports = mongoose.model( 'User', User )
